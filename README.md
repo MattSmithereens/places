@@ -23,8 +23,11 @@ A web page collecting places a user has been and constructed as practice for wor
 ## Links
 
 ## Specs
-* Display the Place Name in the List of Places section, with hyperlinked styling.
-* Display the details of each place when one 'link' is clicked
+* Display the Place Name in the List of Places section
+* on submit, Display the details of entered place
+* on Click of 'Add' button, change the value of each field to "".
+* Display place name with hyperlinked styling.
+* when one place name in Place List 'link' is clicked, display that place's info in Details secion.
 
 ## License
 
