@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Places You've Been</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- remove styles link for Bootstrap 3.3.7 and uncomment below if you want to use Bootstrap 4.0.0 -->
+  <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Places You've Been</h1>
+
+    <div class="row">
+      <div class="col-md-8">
+        <form id="new-place">
+          <h3>Add A New Place</h3>
+          <div class="form-group">
+            <label for="new-place-name">What is the place called?</label>
+            <input type="text" width=95% class="form-control" id="new-place-name">
+          </div>
+          <div class="form-group">
+            <label for="new-location">Where is this place located?</label>
+            <input type="text" width=95% class="form-control" id="new-location">
+          </div>
+          <div class="form-group">
+            <label for="new-landmarks">What landmarks make this place memorable?</label>
+            <input type="text" width=95% class="form-control" id="new-landmarks">
+          </div>
+          <div class="form-group">
+            <label for="new-time">What time of the year is a good time to visit this place?</label>
+            <input type="text" width=95% class="form-control" id="new-time">
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-4">
+        <h3>List of Places</h3>
+        <ul id="results-list">
+
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row" id="results-details">
+      <h3>Place Details</h3>
+      <p>Place Name: <span class="place-name"></span></p>
+      <p>Location: <span class="location"></span></p>
+      <p>Landmarks: <span class="landmark"></span></p>
+      <p>Time of Year: <span class="time-of-year"></span></p>
+    </div>
+
+  </div>
+</body>
+</html>
