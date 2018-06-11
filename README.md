@@ -27,7 +27,7 @@ A web page collecting places a user has been and constructed as practice for wor
 * on submit, Display the details of entered place
 * on Click of 'Add' button, change the value of each field to "".
 * Display place name with hyperlinked styling.
-* when one place name in Place List 'link' is clicked, display that place's info in Details secion.
+* when one place name in Place List 'link' is clicked, display that place's info in Details section.
 
 ## License
 
